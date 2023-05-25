@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and Register</title>
+   <!---- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>-->
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+    
+       <div>
+        <div class="form-box login" id="login-container" >
+            <h2>Login</h2>
+            <form actiom="#" id="login-form">
+                <div class="input-box">
+                    <span class="icon"><box-icon type='logo' name='gmail'></box-icon></span>
+                    <label> Email</label>
+                    <input type="Email" required placeholder="example@gmail.com">
+                </div>
+                <div class="input-box">
+                    <span class="icon"><box-icon type='solid' name='lock-alt'></box-icon></span>
+                  
+                    <label> Password</label>
+                    <input type="password" required placeholder="..............">
+                   
+                </div>
+                <div class="remember-forgot">
+                  <div> <label><input type="checkbox" > Remember me </label></div><br>
+                  <a href="#"> Forgot Password?</a>
+                </div>
+                <button type="submit"class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?  <a href="#" class="register" id="signup-link">SignUp</a></p>
+                </div>
+            </form>
+        </div>
+        <span class="icon-close"><box-icon name='x'></box-icon></span>
+        <div class="form-box register" id="signup-container" style="display:none">
+            <h2>Sign Up</h2>
+            <form actiom="#" id="signup-form">
+                <div class="input-box">
+                    <span class="icon"><box-icon type='solid' name='user-circle'></box-icon></span>
+                    <label> Username</label>
+                    <input type="text" required placeholder="username">
+                </div>
+                <div class="input-box">
+                    <span class="icon"><box-icon type='logo' name='gmail'></box-icon></span>
+                    <label> Email</label>
+                    <input type="Email" required placeholder="example@gmail.com">
+                </div>
+                <div class="input-box">
+                    <span class="icon"><box-icon type='solid' name='lock-alt'></box-icon></span>
+                  
+                    <label> Password</label>
+                    <input type="password" required placeholder="..............">
+                   
+                </div>
+            
+                <div class="remember-forgot" style="margin-right: 40px;">
+                   <label><input type="checkbox" > Agree to the terms & conditions  </label>
+            
+                </div>
+                <button type="submit"class="btn">Sign Up</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login" id="login-link">LogIn</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+
+
+<script src ="script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+</html>
